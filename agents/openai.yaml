@@ -1,0 +1,4 @@
+interface:
+  display_name: "科学动画视频"
+  short_description: "将科学口播制作成连续竖屏动画，配微软语音、同步字幕和可编辑源文件"
+  default_prompt: "请使用 $science-motion-workflow 把我的选题制作成科学讲解动画，使用微软配音；如果我要求先审口播，就先只交口播。"
