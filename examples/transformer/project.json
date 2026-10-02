@@ -1,0 +1,23 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "pronunciation": {
+    "softmax": "soft max",
+    "根号dk": "根号d k",
+    "Prefill": "Pre fill",
+    "Decode": "De code"
+  },
+  "scenes": [
+    {"id": "hook", "anchors": ["Transformer"]},
+    {"id": "strip", "anchors": ["拿掉循环"]},
+    {"id": "seq", "anchors": ["第10个词"]},
+    {"id": "attn", "anchors": ["同时计算"]},
+    {"id": "formula", "anchors": ["公式只有一行"]},
+    {"id": "qk", "anchors": ["Q代表", "K代表"]},
+    {"id": "weight", "anchors": ["加权汇总"]},
+    {"id": "learn", "anchors": ["指代和词语关系"]},
+    {"id": "parallel", "anchors": ["大规模并行"]},
+    {"id": "gen", "anchors": ["Prefill", "Decode"]},
+    {"id": "close", "anchors": ["一次看见全局", "一步一步地说话"]}
+  ]
+}
